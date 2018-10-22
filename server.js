@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-// const bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 require("dotenv").config({ path: "variables.env" });
 // const Recipe = require("./models/Recipe");
 // const User = require("./models/User");
@@ -22,7 +22,11 @@ const server = new ApolloServer({
 });
 
 const app = express();
-server.applyMiddleware({ app, path: "/graphql" });
+server.applyMiddleware({
+  app,
+  path: "/graphql",
+  bodyParser: bodyParser.json
+});
 
 // connects to databas
 mongoose.connect(process.env.MONGO_URI)
