@@ -20,3 +20,11 @@ for receive sth, means GET
 for update, create, delete?
 
 # Test folder is not for real testing, only for playground interactive script
+
+# Create react app
+1. run npm install -g create-react-app
+2. create-react-app client
+
+# section 4
+under client folder :npm install react-apollo apollo-boost jwt-decode
+
