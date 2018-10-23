@@ -28,3 +28,6 @@ for update, create, delete?
 # section 4
 under client folder :npm install react-apollo apollo-boost jwt-decode
 
+# todo:
+client side and server side conflict. now comment the pre-commit hook
+
