@@ -1,0 +1,15 @@
+mutation {
+  addRecipe(name: "Gridller Cheese Sandwich",category: "Sandwich",description: "a tasty sandwich",  instructions:"Grill it") {
+  name
+  }
+}
+
+query {
+  getAllRecipes{
+    id
+    name
+    category
+    description
+    likes
+  }
+}

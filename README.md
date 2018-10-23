@@ -13,8 +13,10 @@ http://localhost:4444/graphql
 # Resolver 
 It is used to implement the CRUD and all the other method which are defined in schema Query and Mutation.
 
-#type Query
+# type Query
 for receive sth, means GET
 
-#type Mutation
+# type Mutation
 for update, create, delete?
+
+# Test folder is not for real testing, only for playground interactive script
