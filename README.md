@@ -9,3 +9,12 @@ https://medium.com/@jeffrey.allen.lewis/graphql-migrating-from-apollo-server-exp
 # GraphQL playGround
 http://localhost:4444/graphql
 
+
+# Resolver 
+It is used to implement the CRUD and all the other method which are defined in schema Query and Mutation.
+
+#type Query
+for receive sth, means GET
+
+#type Mutation
+for update, create, delete?
